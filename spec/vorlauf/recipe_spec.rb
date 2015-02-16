@@ -172,14 +172,16 @@ describe Vorlauf::Recipe do
     end
 
     context 'when style is present' do
+      let(:recipe) { Vorlauf::Recipe.new }
+
       context 'when all conditions are matched' do
-        it 'returns true' do
+        xit 'returns true' do
           expect(recipe.conforms_to_style?).to be_truthy
         end
       end
 
       context 'when not all conditions are matched' do
-        it 'returns false' do
+        xit 'returns false' do
           expect(recipe.conforms_to_style?).to be_falsey
         end
       end
