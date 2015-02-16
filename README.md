@@ -1,5 +1,7 @@
 # Vorlauf
 
+[![Build Status](https://travis-ci.org/kieranj/vorlauf.svg?branch=master)](https://travis-ci.org/kieranj/vorlauf)
+
 ## Installation
 
 Add the gem to your Gemfile
