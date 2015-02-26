@@ -11,11 +11,11 @@ module Vorlauf
     end
 
     def ibu_formula=(f)
-      @ibu_formula = Object.const_get("Vorlauf::Formulas::#{f}")
+      @ibu_formula = Vorlauf::Formulas.const_get(f)
     end
 
     def color=(m)
-      @color = Object.const_get("Vorlauf::Color::#{m}")
+      @color = Vorlauf::Color.const_get(m)
     end
 
   end
